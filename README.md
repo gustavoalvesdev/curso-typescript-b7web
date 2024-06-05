@@ -9,3 +9,6 @@ Curso de Typescript da B7Web
 
 ## Para compilar o arquivo
 `tsc nome_do_arquivo.ts`
+
+## Indicando a pasta onde ficará  o arquivo armazenado
+`tsc src/script.ts --outDir public`

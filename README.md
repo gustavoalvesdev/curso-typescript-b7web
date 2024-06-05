@@ -1,2 +1,2 @@
-# curso-typescript-b7web
+# Typescript
 Curso de Typescript da B7Web

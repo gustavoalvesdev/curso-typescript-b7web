@@ -1,5 +1,8 @@
-let nome: string = 'Gustavo';
+let nomes: string[] = ['Bonieky', 'Gustavo', 'Luis', 'Fulano'];
 
-let idade: number = 90;
+let idades: number[] = [15, 20, 90, 76, 33];
 
-let programador: boolean = true;
+let numeros: Array<number> = [10, 240, 321];
+
+numeros.push(22);
+

@@ -1,13 +1,11 @@
-var _a;
-var idade = 90;
-idade = (_a = document.getElementById('idade')) === null || _a === void 0 ? void 0 : _a.innerHTML;
-function mostrarIdade(idade) {
-    if (idade === 'string')
-        console.log(idade.toUpperCase());
-    else if (idade === 'number')
-        console.log(idade);
-    else
-        console.log('não definido');
+// type User = {
+//     nome: string,
+//     idade: number
+// };
+function resumo(usuario) {
+    return "Ol\u00E1, ".concat(usuario.nome, ", voc\u00EA tem ").concat(usuario.idade, " anos");
 }
-mostrarIdade(90);
-mostrarIdade('2222');
+resumo({
+    nome: 'Gustavo',
+    idade: 34
+});
